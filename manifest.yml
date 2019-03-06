@@ -6,3 +6,5 @@ applications:
       - route: pal-tracker-pkhd.apps.evans.pal.pivotal.io
     env:
       WELCOME_MESSAGE: Hello from the review environment
+      MANAGEMENT_ENDPOINT_HEALTH_SHOWDETAILS: always
+      MANAGEMENT_ENDPOINTS_WEB_EXPOSURE_INCLUDE: "*"
